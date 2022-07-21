@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(255, 199, 64);
+    font-family: "Open Sans", Arial;
+  }
+
+  h1 {
+    margin: 1.5rem 0 0 0;
+  }
+  
+  form {
+    line-height: 27px;
+    padding: 0 1rem 1rem 1rem;  
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    min-height: 20px;  
+
+    border-radius: 5px;
+    border:1px solid #cccccc;
+  }
+  
+  input[type="radio"] {
+    margin-left: 12px;
+  }
+
+  select {
+    padding: 3.5px 0;
+    border-radius: 5px;
+
+  }
+  
+  #main,  #main-story {
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    /* height: 80vh; */
+    height: auto; 
+
+    border-radius: 15px;
+    margin: 2% 10%;
+    overflow: auto;
+    padding: 0 1rem 1rem 1rem;
+
+  }
+  
+  #story {
+    padding: 0 3%;
+  }
+  
+  #top {
+    background-color: rgb(255, 255, 255);
+    margin: 2% 10%;
+    border-radius: 15px;
+  }
+  
+  #top img {
+    display: block;
+    width: 25%;
+    min-width: 150px;
+    margin: 0 auto;
+  }
+  
+  .italics {
+    font-style: italic;
+  }
+  
+  .word {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  input, textarea {
+    margin-top: 0.5rem;      
+    padding-left: 0.4rem;
+  }
+
+  textarea {
+    vertical-align:top;  
+    border-radius: 5px;
+    text-align:initial; 
+
+  }
+
+  #quote {
+    margin-bottom: 0.5rem;    
+  }
+
+  label, #yes-no-label {
+    text-align: start; 
+  }
+
+  #submit {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.4rem;  
+    background-color: rgb(77, 131, 98);
+    color: white; 
+    font-size: 14px;
+  }
+
+  #submit:hover {
+    background-color: rgb(96, 166, 123);
+  }
+
+  #submit:active {
+    background-color: rgb(96, 166, 123);
+    border: 2px solid white;
+  }
